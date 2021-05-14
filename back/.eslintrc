@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "singleQuote": true,
+        "trailingComma": "all"
+      }
+    ],
+    "no-underscore-dangle": "off"
+  },
+  "settings": {},
+  "overrides": []
+}
